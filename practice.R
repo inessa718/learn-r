@@ -15,4 +15,4 @@ lapply(packages, require, character.only = TRUE)
 
 
 #create document
-render("practice_markdown.Rmd")
+render("RMarkdown/practice_markdown.Rmd")
