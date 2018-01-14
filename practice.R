@@ -1,4 +1,5 @@
 #clear, format
+setwd("/Users/liskovichi/Dropbox/Jobs/ISLR")
 rm(list=ls())
 options(scipen=5)
 
@@ -11,3 +12,7 @@ lapply(packages, require, character.only = TRUE)
 #for more on using bayes: 
 #http://www.machinegurning.com/rstats/bayes_r/
 
+
+
+#create document
+render("practice_markdown.Rmd")
